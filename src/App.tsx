@@ -52,7 +52,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1 className="text-red-500">Hello CodeSandbox</h1>
+      <h1 className="text-red-500">Auto-rolling ranking</h1>
       {keywords && keywords.items.length > 0 && (
         <TextListRollup data={keywords} />
       )}

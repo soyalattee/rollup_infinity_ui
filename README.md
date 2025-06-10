@@ -1,6 +1,6 @@
 # UI
 
-## 사용 스택
+## tech stack
 
 - React & Vite & Typescript
 - tailwind

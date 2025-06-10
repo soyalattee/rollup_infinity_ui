@@ -1,0 +1,32 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.animate-roll-up {
+  animation: roll-up 6s ease-in-out infinite;
+  animation-delay: 0s;
+}
+
+@keyframes roll-up {
+  0% {
+    transform: translateY(0);
+  }
+  15% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(-100%);
+  }
+  65% {
+    transform: translateY(-200%);
+  }
+  100% {
+    transform: translateY(-200%);
+  }
+}
